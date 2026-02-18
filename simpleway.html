@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Simple way to turn old t-shirt into fun and crafts</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="icon/download.png" type="">
+
+    <!-- ----------  Deals of the day Part start for java syntex.......... -->
+
+
+    <script>
+        $(document).ready(function () {
+
+            $('#itemslider').carousel({ interval: 3000 });
+
+            $('.carousel-showmanymoveone .item').each(function () {
+                var itemToClone = $(this);
+
+                for (var i = 1; i < 6; i++) {
+                    itemToClone = itemToClone.next();
+
+                    if (!itemToClone.length) {
+                        itemToClone = $(this).siblings(':first');
+                    }
+
+                    itemToClone.children(':first-child').clone()
+                        .addClass("cloneditem-" + (i))
+                        .appendTo($(this));
+                }
+            });
+        });
+    </script>
+
+
+
+    <script>
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            //I'm adding this section so I don't have to keep updating this pen every year :-)
+            //remove this if you don't need it
+            let today = new Date(),
+                dd = String(today.getDate()).padStart(2, "0"),
+                mm = String(today.getMonth() + 1).padStart(2, "0"),
+                yyyy = today.getFullYear(),
+                nextYear = yyyy + 1,
+                dayMonth = "09/30/",
+                birthday = dayMonth + yyyy;
+
+            today = mm + "/" + dd + "/" + yyyy;
+            if (today > birthday) {
+                birthday = dayMonth + nextYear;
+            }
+            //end
+
+            const countDown = new Date(birthday).getTime(),
+                x = setInterval(function () {
+
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        document.getElementById("headline").innerText = "It's my birthday!";
+                        document.getElementById("countdown").style.display = "none";
+                        document.getElementById("content").style.display = "block";
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
+    </script>
+
+</head>
+<!-- ----------  Deals of the day Part end for java syntex.......... -->
+
+
+
+<body>
+    <!--...... start first line..... -->
+    <div class="section ">
+        <div class="container-fluid abc ">
+            <div class="row  ">
+                <p class="pt-2 ">We ship nationwide. 30-day return policy. Free standard shipping on orders over $75.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--...... end first line..... -->
+
+    <!--......... start second line......... -->
+    <div class="section">
+        <div class="container">
+            <div class="row  call ">
+                <div class="col-lg-8 ">
+                    <h2>Call Us Free 24/7:(+91)012-345-6789</h2>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="row ">
+                        <div class="col-lg-4 ">
+                            <h2 style="border-right: 1px solid grey;">Track Order</h2>
+
+                        </div>
+
+                        <div class="col-lg-4 ">
+                            <h2 style="border-right: 1px solid grey;">Help Center</h2>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--......... end second line......... -->
+
+    <!--........ third line start........ -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <img src="logo.webp"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-4 mt-lg-0 pl-5">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown design-dropdown pl-3">
+                    <a class="nav-link" href="design.html" id="dropdownId" aria-haspopup="true"
+                        aria-expanded="false">Design <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-menu my-design-dropdown px-5" aria-labelledby="dropdownId">
+                        <ul class="list-unstyled pr-xl-3">
+                            <li>
+                                <h5>Arts</h5>
+                            </li>
+                            <li><a href="#">Architecture&nbsp;Art</a></li>
+                            <li><a href="#">Literature&nbsp; Art</a></li>
+                            <li><a href="#">Theater&nbsp; Art</a></li>
+                            <li><a href="#">Ceramics&nbsp; Art</a></li>
+
+
+                        </ul>
+                        <ul class="list-unstyled px-xl-3">
+                            <li>
+                                <h5>Bone&nbsp;China</h5>
+                            </li>
+                            <li><a href="#">Bone&nbsp;China</a></li>
+                            <li><a href="#">Sculpture&nbsp;Art</a></li>
+                            <li><a href="#">Painting &nbsp;Art</a></li>
+                            <li><a href="#">Glass&nbsp;Etching</a></li>
+
+                        </ul>
+                        <ul class="list-unstyled px-xl-3">
+                            <li>
+                                <h5>Flower&nbsp;Crafts</h5>
+                            </li>
+                            <li><a href="#">Flower&nbsp;Craft</a></li>
+                            <li><a href="#">Daffodil&nbsp;Craft</a></li>
+                            <li><a href="#">Furniture&nbsp;Crafts</a></li>
+                            <li><a href="#">Glass Crafts</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item pl-3">
+                    <a class="nav-link" href="handprint.html">Handprint</a>
+                </li>
+                <li class="nav-item pl-3">
+                    <a class="nav-link" href="collection.html">Collection</a>
+                </li>
+                <li class="nav-item pl-3">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown more-dropdown pl-3">
+                    <a class="nav-link" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">More <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="blog.html">Blog</a>
+                        <a class="dropdown-item" href="contact.html">Contact Us</a>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+    <!--......... third line end......... -->
+
+    <!--....... product image part start....... -->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row rainy">
+                <div class="col-lg-12 product2 p-0">
+                    <img src="https://artistic-codezeel.myshopify.com/cdn/shop/files/breadcumb-bkg.jpg?v=1742970555"
+                        alt="Banner Image">
+                    <div class="product2-overlay" style="padding: 20px;">
+                        <div class="wide">
+                            <!-- <h2 style="margin-bottom: 5px;">Collection</h2> -->
+                            <h5 style="margin-top: 0;" class="text-lg-center">Home/ Blog / Simple Ways to Turn Old
+                                T-shirts into Fun Crafts</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+    <!--....... product image part end....... -->
+    <br><br>
+
+    <!-- Easy Crafts for Rainy Days with Kids part start -->
+
+    <section>
+        <div class="container-fluid wellcome ">
+            <h4 class="ml-3">Simple Ways to Turn Old T-shirts into Fun Crafts</h4>
+            <p class="ml-3">MARCH 25, 2025</p>
+            <div class="ml-3">
+                <img src="image/blog10.jpg">
+            </div>
+            <br>
+            <p class="ml-3 wellcome">Welcome to the ultimate shopping event that you've been waiting for! Our upcoming
+                shopping sale is set to dazzle and delight, offering you the chance to snag your favorite items at
+                unbelievable prices. Whether you're a fashionista, a tech enthusiast, or someone looking to revamp your
+                home decor, our sale has something for everyone. In our exciting blog series, we'll be unraveling the
+                details of this shopping extravaganza that's set to dazzle and delight. From irresistible discounts on
+                your favorite brands to exclusive previews of the trendiest collections, our sale event promises to be
+                an unforgettable journey through the world of fashion, lifestyle, and more.
+            </p>
+
+            <p class="ml-3 wellcome">Get ready to be amazed by the jaw-dropping discounts and offers we have in store. From
+                exclusive product bundles to limited-time promotions, our sale is designed to make your shopping
+                experience truly unforgettable.
+            </p>
+
+            <p class="ml-3 wellcome">Explore a diverse array of categories, ranging from fashion and beauty to electronics, home
+                essentials, and more. Whether you're searching for the latest trends or timeless classics, you're sure
+                to find items that speak to your style and preferences.
+            </p>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="container-fluid wellcome">
+            <p class="ml-3">Certainly, here are some hints for finding great sale items:</p>
+            <ul>
+                <li><b>Look for Clearance Sections</b></li>
+                <li><b>Check Online Marketplaces</b></li>
+                <li><b>Sign Up for Newsletters:</b></li>
+                <li><b>Follow Social Media</b></li>
+                <li><b>Visit Outlet Stores:</b></li>
+            </ul>
+            <p class="ml-3 wellcome">Elevate your wardrobe with our collection of trendy apparel and accessories. From statement
+                pieces to versatile basics, our fashion offerings are designed to help you express your unique style
+                effortlessly.
+            </p>
+
+            <p class="ml-3 wellcome">Dive into the world of technology with our impressive lineup of gadgets and electronics.
+                Discover cutting-edge devices that enhance your daily life, from smart wearables to entertainment
+                gadgets that redefine your leisure time. Transform your living spaces with our selection of home and
+                decor items. Whether you're looking for chic furnishings, cozy textiles, or elegant accents, our sale
+                has everything you need to create a space that reflects your personality.
+            </p>
+
+            <p class="ml-3 wellcome">With our user-friendly online platform, shopping has never been easier. Browse, select, and
+                purchase your favorite items from the comfort of your home or on the go. It's a shopping experience
+                designed to fit your lifestyle. Whether it's a special occasion or just a way to show your appreciation,
+                our sale offers a plethora of gift options for your loved ones. Choose from thoughtful presents that
+                make hearts smile.
+            </p>
+
+            <p class="ml-3 wellcome">Don't miss out on this incredible opportunity to shop for top-notch products at unbeatable
+                prices. Mark your calendar, set your reminders, and get ready to indulge in a shopping spree like never
+                before. Stay tuned for more updates and sneak peeks into the exciting offers that await you during our
+                upcoming shopping sale extravaganza!
+            </p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+
+
+        <p class="ml-3"><svg width="13" height="12" viewBox="0 0 13 12" class="icon icon-share" fill="none"
+                xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <path
+                    d="M1.625 8.125V10.2917C1.625 10.579 1.73914 10.8545 1.9423 11.0577C2.14547 11.2609 2.42102 11.375 2.70833 11.375H10.2917C10.579 11.375 10.8545 11.2609 11.0577 11.0577C11.2609 10.8545 11.375 10.579 11.375 10.2917V8.125"
+                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.14775 1.27137C6.34301 1.0761 6.65959 1.0761 6.85485 1.27137L9.56319 3.9797C9.75845 4.17496 9.75845 4.49154 9.56319 4.6868C9.36793 4.88207 9.05135 4.88207 8.85609 4.6868L6.5013 2.33203L4.14652 4.6868C3.95126 4.88207 3.63468 4.88207 3.43942 4.6868C3.24415 4.49154 3.24415 4.17496 3.43942 3.9797L6.14775 1.27137Z"
+                    fill="currentColor"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M6.5 1.125C6.77614 1.125 7 1.34886 7 1.625V8.125C7 8.40114 6.77614 8.625 6.5 8.625C6.22386 8.625 6 8.40114 6 8.125V1.625C6 1.34886 6.22386 1.125 6.5 1.125Z"
+                    fill="currentColor"></path>
+            </svg> share</p>
+        <P class="ml-3">Tags:Collection,eCommerce,electronics,Fashion</P>
+        <hr>
+
+    </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p class="ml-3">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
+                            fill="currentColor">
+                        </path>PREVIOUS POST
+                    </p>
+                    <P class="ml-4">Simple Ways TO Turn Old T-Shirt Into Fun Crafts</P>
+                </div>
+
+                <div class="col-lg-4"></div>
+
+                <div class="col-lg-4">
+                    <p class="mr-3">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
+                            fill="currentColor">
+                        </path>NEXT POST
+                    </p>
+                    <P class="ml-4">Easy Craft For Rainy Days With Kids</P>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- <Get Your Latest Update part start > -->
+    <div class="section">
+        <div class="container-fluid update">
+            <div class="row ">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6  p-5  ">
+                    <h2 class="text-lg-center"> Get Your Latest Update!</h2>
+                    <p class="text-lg-center">Subscribe to our latest newsletter to get news about special discounts.
+                    </p>
+                    <form action="#" class="d-flex my-sub ">
+                        <input type="email" placeholder="Email" class="form-control">
+                        <button type="button" class="btn ">SUBSCRIBE</button>
+                    </form>
+
+
+                </div>
+                <div class="col-lg-3"></div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <Get Your Latest Update part end > -->
+
+    <br> <br>
+
+
+    <!-- ........ footer part start............ -->
+
+    <div class="section">
+        <div class="container">
+            <div class="row contact">
+                <div class="col-lg-4">
+                    <h3>Contact Us</h3>
+                    <br>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Artistic - Art & Craft Store
+                        <br>507-Union Trade Ipsum Doler<br> Centre France
+                    </p>
+
+            <p><a href="contact.html" style= "color: black;"><i class="fa fa-envelope" aria-hidden="true"></i> hello@blocks.com</a></p>
+
+            <p><a href="contact.html" style="color: black;"><i class="fa fa-phone" aria-hidden="true"></i> (+91) 9876- 543- 210</a></p>
+
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4 line">
+                            <h3> Quick Line</h3>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="contact.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Contact Us
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="shipping.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Shipping
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Sitemap.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Sitemap
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="FAQs.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                F A Qs
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="stores.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Stores
+                            </a>
+                            <br>
+
+                        </div>
+
+                        <div class="col-lg-4 Service6">
+                            <h3> Services</h3>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Policy for Buyers.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Policy For buryes
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Privacy policy.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Privcay Policy
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Refund policy.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Refund Policy
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Shipping policy.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Shipping Policy
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Terms of service.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Terms of Service
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 Information">
+                            <h3> Information </h3>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Delivery Information.html"
+                                class="link link--text list-menu__item list-menu__item--link">&nbsp;Delivery&nbsp;Information
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="About Us.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                About Us
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Privacy Policy.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Privacy Policy
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Terms and Conditions.html"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Terms and Conditions
+                            </a>
+                            <br>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i><a href="Search"
+                                class="link link--text list-menu__item list-menu__item--link">
+                                Search
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--............. end part start ........  -->
+
+
+
+
+
+
+        <div class="container-fluid">
+            <div class="row footer-bottom align-items-center">
+                <div class="col-md-6 col-sm-12 text-md-start text-center mb-2 mb-md-0">
+                    © 2025, Artistic - Art & Craft Store (Password: demo) Powered by Shopify
+                </div>
+                <div class="col-md-6 col-sm-12 text-md-end text-center">
+                    <div class="card-icons d-flex justify-content-md-end justify-content-center">
+                        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+                        <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="MasterCard">
+                        <img src="https://img.icons8.com/color/48/000000/amex.png" alt="AmEx">
+                        <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+                        <img src="https://img.icons8.com/color/48/000000/discover.png" alt="Discover">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end part -->
+
+    </div>
+    <!--........ footer part end............ -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            //I'm adding this section so I don't have to keep updating this pen every year :-)
+            //remove this if you don't need it
+            let today = new Date(),
+                dd = String(today.getDate()).padStart(2, "0"),
+                mm = String(today.getMonth() + 1).padStart(2, "0"),
+                yyyy = today.getFullYear(),
+                nextYear = yyyy + 1,
+                dayMonth = "09/30/",
+                birthday = dayMonth + yyyy;
+
+            today = mm + "/" + dd + "/" + yyyy;
+            if (today > birthday) {
+                birthday = dayMonth + nextYear;
+            }
+            //end
+
+            const countDown = new Date(birthday).getTime(),
+                x = setInterval(function () {
+
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        document.getElementById("headline").innerText = "It's my birthday!";
+                        document.getElementById("countdown").style.display = "none";
+                        document.getElementById("content").style.display = "block";
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
+    </script>
+
+    <script>
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            //I'm adding this section so I don't have to keep updating this pen every year :-)
+            //remove this if you don't need it
+            let today = new Date(),
+                dd = String(today.getDate()).padStart(2, "0"),
+                mm = String(today.getMonth() + 1).padStart(2, "0"),
+                yyyy = today.getFullYear(),
+                nextYear = yyyy + 1,
+                dayMonth = "09/30/",
+                birthday = dayMonth + yyyy;
+
+            today = mm + "/" + dd + "/" + yyyy;
+            if (today > birthday) {
+                birthday = dayMonth + nextYear;
+            }
+            //end
+
+            const countDown = new Date(birthday).getTime(),
+                x = setInterval(function () {
+
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days1").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours1").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes1").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds1").innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        document.getElementById("headline").innerText = "It's my birthday!";
+                        document.getElementById("countdown").style.display = "none";
+                        document.getElementById("content").style.display = "block";
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
+    </script>
+
+
+
+
+</body>
+
+</html>

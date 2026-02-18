@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Question 15 -->
+
+
+  <p id="var1"></p>
+
+  <script>
+
+    total = 100;
+    total += 50;
+    total -= 30;
+    total /= 5;
+    total *= 3;
+    total %= 7;
+
+    var var1 = 100;
+    {
+      var var1 = 7;
+    }
+
+    document.getElementById("var1").innerHTML = "value of var1:" + var1;
+
+  </script>
+
+  <!-- question 1 -->
+
+  <p id="sum"></p>
+
+  <script>
+
+    // let x = 12;
+    // let y = 4;
+
+    // let sum = x + y;
+    // let sub = x - y;
+    // let product = x * y;
+    // let division = x / y;
+
+    document.getElementById("sum").innerHTML = "value of sum:" + sum + "<br> value of sub:" + sub + "<br> value of product:" + product + "<br> value of division:" + division;
+
+  </script>
+
+  <!-- question 3 -->
+
+  <p id="digit"></p>
+
+
+  <script>
+    let marks1 = 85;
+    let marks2 = 92;
+
+    let greater = marks1 > marks2;
+    let less = marks1 < marks2;
+    let greater_equal = marks1 >= marks2;
+    let less_equal = marks1 <= marks2;
+
+    document.getElementById("digit").innerHTML = "value of greater:" + greater + "<br> value of less:" + less + "<br> value of greater_equal:" + greater_equal + "<br> value of less_then:" + less_equal;
+
+
+  </script>
+
+
+  <!-- question 4  -->
+
+  <!-- <p id="Operators"></p>
+
+  <script>
+
+    let a = 7;
+    let b = '7';
+
+    let not_equal = x != y;
+    let str_not_equal = x != y;
+
+    document.getElementById("operators").innerHTML = "value of not_equal:" + not_equal + "<br> value of str_not_equal:" + str_not_equal;
+
+
+  </script> -->
+
+  <h4> Relational operator</h4>
+
+  <p id="relational"></p>
+
+  <script>
+
+    let rel1 = 20;
+    let rel2 = 30;
+    let rel3 = '40';
+
+    let_equal = rel1 == rel2;
+    let str_equal = rel3 === rel1;
+    let not_equal = rel != rel2;
+    let str_not_equal = rel != rel3;
+
+    document.getElementById("relational1").innerHTML = "value of equal:" + equal + "<br> value of str_equal:" + str_equal + "<br> vlaue of not_equal:" + not_equal + "<br> value of str_not_equal:" + str_not_equal;
+
+
+  </script>
+
+  <!--......... question 6 .......-->
+
+  <h3>3. Bitwise Operators</h3>
+  <p id="bitwise"></p>
+  <script>
+
+    var bita = 10;
+    var bitb = 20;
+
+    let bit_and = bita & bitb;
+    let bit_or = bita | bitb;
+    let bit_xor = bita ^ bitb;
+
+    document.getElementById("bitwise").innerHTML = "value of bitwise and:" + bit_and + "<br> value of bitwise or:" + bit_or + "<br> value of bitwise xor:" + bit_xor;
+
+
+
+  </script>
+
+  <!-- question 10 -->
+
+  <h4> logical and &</h4>
+  <p id="logical"></p>
+
+  <script>
+    var a = 10;
+    var b = 20;
+    var c = 30;
+
+    let a_and = a < b && b < c;
+    let b_and = a > b && b < c;
+    let c_and = a == 10 && c == 30;
+
+    document.getElementById("logical").innerHTML = "value of logical and:" + a_and + "<br> value of logical and:" + b_and + "<br> value of logical and:" + c_and;
+
+  </script>
+
+  <!-- question 11 -->
+
+  <h4> logical or ||</h4>
+  <p id="logical2"></p>
+
+  <script>
+    var x = 5;
+    var y = 8;
+    var z = 10;
+
+    let x_or = x > y || y < z;
+    let y_or = x == 5 || z == 5;
+    let z_or = x == 10 || y == 8;
+
+    document.getElementById("logical2").innerHTML = "value of logical2 or:" + x_or + "<br> value of logical2 or:" + y_or + "<br> value of logical2 or:" + z_or;
+
+  </script>
+
+  <!-- question 12 -->
+
+  <h4> logical not !</h4>
+  <p id="logical3"></p>
+
+  <script>
+    var a = 15;
+    var b = 25;
+
+    let a_not = !(a < b);
+    let b_not = !(a == 15);
+
+    document.getElementById("logical3").innerHTML = "value of logical3 not:" + a_and + "<br> value of logical3 not:" + b_not;
+  </script>
+
+
+  <!-- question 14 -->
+
+  <h4> conditional output</h4>
+
+  <p id="conditional operator"></p>
+
+  <script>
+    var isloggedin = false;
+    var isadmin = true;
+
+    let loggedin_and = isloggedin && isadmin;
+    let loggedin_or = isloggedin || isadmin;
+    let loggedin_not = !isloggedin;
+
+    document.getElementById("conditional operator").innerHTML = "value of conditional operator:" + loggedin_and + "<br> value of conditional operator:" + loggedin_or + "<br> value of conditional operator:" + loggedin_not;
+
+  </script>
+
+  <!-- question 8 -->
+
+  <h4> left shift & right shift</h4>
+
+  <p id="shift"></p>
+
+  <script>
+    var num = 10;
+
+    let left_shift = num << 2;
+    let right_shift = num >> 3;
+
+    document.getElementById("shift").innerHTML = "value of shift:" + left_shift + "<br> value of shift:" + right_shift;
+
+  </script>
+
+  <!-- question 9 -->
+
+  <h4> binary comparision</h4>
+  <p id="binary"></p>
+
+  <script>
+    var a = 5;
+    var b = 3;
+
+    let_and = a & b;
+    let_or = a || b;
+    let_xor = a ^ b;
+
+    document.getElementById("binary").innerHTML = "value of and:" + let_and + "<br> value of or:" + let_or + "<br> value of xor:" + let_xor;
+  </script>
+
+
+  <!-- question 17 -->
+
+
+
+
+  <h3>2. if else statement</h3>
+
+  <p id="if_else"></p>
+
+
+  <script>
+    let if1 = 45;
+    if (if1 > 33) {
+      document.getElementById("if_else").innerHTML = " you are passed the exam";
+    }
+    else {
+      document.getElementById("if_else").innerHTML = " you are not passed the exam ";
+    }
+  </script>
+
+  <!-- Question 24 -->
+
+  <h4> 24. day</h4>
+
+
+  <form action="#" id="week_form">
+    <label for="DayNumber"> Enter Day Number:</label>
+
+    <input type="number" name="number" id="daynumber" min="1" max="7">
+
+    <button type="submit"> Find Day</button>
+
+  </form>
+
+  <p id="Switch"></p>
+
+
+
+
+
+<script>
+
+
+    document.getElementById("week_form").addEventListener('submit', function(event1){
+        event1.preventDefault(); (is ko rook ne liye)
+
+
+
+
+        let day_num  = parseInt(document.getElementById("daynumber").value);
+
+let day;
+
+
+switch(day_num){
+
+  case 1:
+    day = "Monday";
+    break;
+
+    case 2:
+    day = "tuesday";
+    break;
+
+      case 3:
+    day = "wednesday";
+    break;
+
+      case 4:
+    day = "thruseday";
+    break;
+
+      case 5:
+    day = "friday";
+    break;
+
+      case 6:
+    day = "saturday";
+    break;
+
+      case 7:
+    day = "sunday";
+    break;
+
+      default:
+      day = "invalid day number";
+
+}
+
+document.getElementById("Switch").innerHTML = day;
+
+
+
+    });
+</script> 
+
+
+<!-- question 20 -->
+
+<h3>4. Nested if statement</h3>
+<p>Enter your score to calculate your grade: </p>
+
+<form action="#" id="gradeform">
+<label for="score">Enter Your Score</label>
+<input type="number" id="score" name="score" min="0" max="100">
+
+<button type="submit">Calculate Grade</button>
+
+</form>
+
+<p id="nested_if"></p>
+<br><br><br>
+
+<script>
+    document.getElementById("gradeform").addEventListener('submit', function(event){
+        event.preventDefault();
+
+
+        let score = document.getElementById("score").value;
+
+        let grade = "";
+
+        if (score>=0 && score <=100){
+            if(score>90 &&  score<=100){
+                grade = "A";
+            }
+            else if (score>75 && score<=89){
+                grade = "B";
+            }
+            else if(score>50 && score<=74){
+                grade = "C";
+            }
+            else  if(score>35 && score<=49){
+                grade = "D";
+            }
+            else {
+                grade = "Fail";
+            }
+            document.getElementById("nested_if").innerHTML = "Your grade for score " + score + "is" + grade;
+        }
+
+        else {
+            document.getElementById("nested_if").innerHTML = "please enter a valid score between 0 and 100";
+        }
+
+
+    })
+</script>
+
+<!-- question 21 -->
+
+<h3> age category</h3>
+<p>enter the age category checker</p>
+
+<from action="#" id="gradeage">
+<label for="age" id="#" name="age"></label>
+  <button type="sumbit"> category</button>
+
+</from>
+
+<p id="if-nested if"></p>
+
+<script>
+
+      document.getElementById("gradeform").addEventListener('submit', function(event){
+        event.preventDefault();
+
+        let score = document.getElementById("age").value;
+
+          if(age>0 &&  age<=12){
+             "child";
+            }
+            else if (age>13 && age<=19){
+              "teenger";
+            }
+
+            else if (age>20 && age<=59){
+               "adult";
+            }
+              else {
+                  "senior citizen";
+            }
+
+            document.getElementById("nested if").innerHTML="your age" + age +"greadeage";
+          } 
+            document.getElementById("nested_if").innerHTML="enter the senior citizen";
+
+    });
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

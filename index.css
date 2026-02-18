@@ -1,0 +1,1408 @@
+   /* *{
+    border: solid red 1px;
+   } */
+   .abc {
+     height: auto;
+     width: 100%;
+
+   }
+
+   .abc p {
+     text-align: center;
+     background-color: #9ea18e;
+     width: 100%;
+     /* height: 40px; */
+     color: white;
+     padding-bottom: 7px;
+   }
+
+   .call h2 {
+     color: black;
+     font-size: 14px;
+     text-transform: capitalize;
+     line-height: 20px;
+     font-weight: 400;
+
+   }
+
+
+
+
+   .navbar {
+     background-color: white;
+     font-family: 'Georgia', serif;
+   }
+
+   .menu {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+   }
+
+   .menu li {
+     position: relative;
+     padding: 15px 20px;
+   }
+
+   .menu a {
+     text-decoration: none;
+     color: black;
+   }
+
+   /* Dropdown  */
+
+   .design-dropdown:hover .dropdown-menu {
+     display: flex;
+   }
+
+   .more-dropdown:hover .dropdown-menu {
+     display: block;
+   }
+
+
+
+   /* Dropdown */
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #fff;
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+     top: 100%;
+     left: 0;
+     padding: 20px;
+     display: flex;
+     gap: 40px;
+     z-index: 100;
+   }
+
+   .dropdown-content .column {
+     min-width: 200px;
+   }
+
+   .dropdown-content h4 {
+     margin-bottom: 10px;
+     font-size: 16px;
+     font-weight: bold;
+   }
+
+   .dropdown-content a {
+     display: block;
+     margin-bottom: 8px;
+     color: #555;
+     font-size: 14px;
+   }
+
+   /* Show dropdown on hover */
+   .dropdown:hover .dropdown-content {
+     display: flex;
+   }
+
+ .navbar .navbar-expand .nav-link ul li h5 a{
+   color: red;
+}
+
+.my-design-dropdown ul li a{
+  color: grey;
+  list-style: none !important;
+}
+
+
+
+
+
+
+   /* <!--........ slide part start........ --> */
+   .active p {
+     color: black;
+     display: block;
+     font-size: 20px;
+   }
+
+   .active h2 {
+     color: black;
+     font-size: 38px;
+     font-weight: 500;
+   }
+
+   .active button {
+     height: 50px;
+     width: 15%;
+     background-color: #9ea18e;
+     border-radius: 5px;
+     color: white;
+     border: none;
+   }
+
+   .active button:hover {
+     background-color: black;
+   }
+
+   .postive .carousel-caption {
+     left: 1%;
+     right: 0;
+     text-align: left;
+     top: 15%;
+   }
+
+   /* <!--........ slide part end........ --> */
+
+   /* <!--....... shop by category part start........ --> */
+
+   .shop h2 {
+     font-size: 25px;
+   }
+
+   .shop7 img {
+     border-radius: 5px;
+   }
+
+   /* .shop3{
+    text-align: center;
+  } */
+   .shop3 h3 {
+     color: black;
+     font-size: 20px;
+     /* text-align: center; */
+     font-weight: bold;
+   }
+
+   .shop7 span {
+     font-size: 14px;
+   }
+
+   .shop7 a u {
+     color: #9ea18e;
+     font-size: 14px;
+     font-weight: 500;
+
+   }
+
+
+
+   /* <!--....... shop by category part end........ --> */
+
+
+   /* <!--......... third image part start........ --> */
+   .image3 img {
+     padding: 15px;
+     padding-top: 25px;
+   }
+
+   .image4 {
+     padding-top: 24px;
+   }
+
+   .college .overlay p {
+     top: 50%;
+     left: 10%;
+     color: #000;
+     background: rgba(255, 255, 255, 0.6);
+     padding: 15px;
+     border-radius: 8px;
+   }
+
+   /* .overlay-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+} */
+
+   .college {
+     position: relative;
+     overflow: hidden;
+   }
+
+   .overlay {
+     position: absolute;
+     top: 0;
+   }
+
+   .college:hover img {
+     transform: scale(1.1);
+     transition: 1s;
+   }
+
+   .overlay2 {
+     position: absolute;
+     top: 0;
+   }
+
+   .overlay3 {
+     position: absolute;
+     top: 0;
+   }
+
+
+
+
+
+
+
+   /* <!--......... third image part end........ --> */
+
+
+   /* <!--........... fourth part start.......... --> */
+   .latest h3 {
+     font-size: 20px;
+     font-weight: 400px;
+     color: #9ea18e;
+     line-height: initial;
+     text-decoration: none;
+     text-transform: capitalize;
+   }
+
+   .latest2 {
+     color: black !important;
+     font-size: 20px;
+     font-weight: 400px;
+     line-height: initial;
+     text-decoration: none;
+     text-transform: capitalize;
+   }
+
+   .body1 h4 {
+     color: black;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
+     overflow: hidden;
+   }
+
+   .body1 i {
+     color: grey;
+     font-size: 14px;
+     overflow: hidden;
+     line-height: 22px;
+   }
+
+   .body1 p {
+     color: black;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
+
+   }
+
+   .body1 button {
+     color: black;
+     height: 40px;
+     width: 70%;
+     border: none;
+     border-radius: 5%;
+     font-size: 15px;
+   }
+
+   .body1 button:hover {
+     background-color: #9ea18e;
+     color: white;
+   }
+
+   /* <!--........... fourth part end.......... --> */
+
+   /* <!--........... Deals of the day Part start.......... --> */
+   .cup {
+
+     height: 294px;
+   }
+
+   .day h2 {
+     font-size: 20px;
+     font-family: sans-serif;
+   }
+
+
+   .cup img {
+     height: 250px;
+     width: 100%;
+   }
+
+   .Silicon h6 {
+     color: black;
+     font-size: 15px;
+   }
+
+   .Silicon i {
+     color: #9ea18e;
+     font-size: 15px;
+   }
+
+   .Silicon p del {
+     color: gray;
+   }
+
+   .Silicon p span {
+     color: black;
+     font-size: 15px;
+   }
+
+   .Silicon button {
+     height: 50px;
+     width: 50%;
+     background-color: #9ea18e;
+     border-radius: 5px;
+     color: white;
+     border: none;
+   }
+
+
+   /* <!--........... Deals of the day Part end.......... --> */
+
+   /* <!--........... Featured Products part start.......... --> */
+
+   .Product h2 {
+     color: black;
+     font-size: 25px;
+   }
+
+   /* <!--........... Featured Products part end.......... --> */
+
+   /* <!--........... latest blog part start ..........--> */
+
+   .crafts img {
+     border-radius: 2%;
+   }
+
+   .crafts span {
+     color: #9ea18e;
+     font-size: 15px;
+     /* letter-spacing: 1px; */
+     line-height: 24px;
+   }
+
+   .crafts p {
+     color: black;
+   }
+
+   .crafts u {
+     color: black;
+     font-size: 15px;
+   }
+
+   .crafts u:hover {
+     color: #9ea18e;
+   }
+
+   /* <!--........... latest blog part end ..........--> */
+
+   /* <!-- <Get Your Latest Update part start > --> */
+
+   .update {
+     background-image: url(https://artistic-codezeel.myshopify.com/cdn/shop/files/newsletter-parallax.jpg?v=1652440273);
+     height: 300px;
+     width: 100%;
+     background-size: cover;
+   }
+
+   .update .my-sub {
+     height: 45px;
+     gap: 10px;
+   }
+
+   .update button {
+     background-color: #9ea18e;
+     color: white;
+     border-radius: 5px;
+     font-size: 15px;
+     font-weight: 400;
+     letter-spacing: 1px;
+     position: relative;
+   }
+
+   .update .my-sub input {
+     height: 100%;
+   }
+
+   /* /* <!-- <Get Your Latest Update part end > --> */
+
+
+   /* <!-- ........ footer part start............ --> */
+
+   .contact h3 {
+     font-size: 20px;
+   }
+
+   .contact i {
+     color: gray;
+   }
+
+   .contact p {
+     color: black !important;
+     font-size: 15px;
+   }
+
+   .line h3 {
+     font-size: 20px;
+   }
+
+   .line i {
+     font-size: 15px !important;
+}
+
+   .line p {
+     font-size: 15px !important;
+}
+
+.line a{
+  color: black;
+    line-height: 30px;
+}
+
+.line a:hover{
+  color: #9d9d89;
+}
+
+.Service6 a{
+  color: black;
+    line-height: 30px;
+}
+
+.Service6 a:hover{
+  color: #9d9d89;
+}
+
+.Information a{
+  color: black;
+  line-height: 30px;
+}
+
+.Information a:hover{
+  color: #9d9d89;
+}
+
+
+
+   /* <!-- ........ footer part end............ --> */
+
+   /* <!--....... product image part start....... --> */
+   .product2 img {
+     /* background-image: url(https://artistic-codezeel.myshopify.com/cdn/shop/files/breadcumb-bkg.jpg?v=1742970555); */
+     height: 100%;
+     width: 100%;
+
+   }
+
+   .product2 {
+     position: relative;
+     height: 200px;
+     width: 100%;
+   }
+
+   .product2 .product2-overlay {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+   .product2-overlay h2 {
+     margin-bottom: 5px;
+   }
+
+   .product2-overlay h4 {
+     margin-top: 0;
+   }
+
+   /* Tab start */
+
+   .tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+   }
+
+   /* Style the buttons inside the tab */
+   .tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     font-size: 17px;
+   }
+
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+     background-color: #ddd;
+   }
+
+   /* Create an active/current tablink class */
+   .tab button.active {
+     background-color: #ccc;
+   }
+
+   /* Style the tab content */
+   .tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+   }
+
+   /* Tab End */
+
+   /* <!--....... product image part end....... --> */
+
+   .abhi {
+     font-size: 16px;
+     color: black;
+   }
+
+   .abhi:hover {
+     color: #9ea18e;
+   }
+
+
+   /* .span{
+  color: red;
+} */
+
+   .pop h4 {
+     color: red;
+   }
+
+   .price h4 {
+     color: blue !important;
+   }
+
+   /* <!--............ colour part start........ --> */
+   .colour h4 {
+     font-size: 22px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .black-circle {
+     background-color: #000;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .blue-circle {
+     background-color: blue;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .yellow-circle {
+     background-color: #f2b600;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .darkblue-circle {
+     background-color: rgb(27, 27, 80);
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .grey-circle {
+     background-color: #666666;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .darkgreen-circle {
+     background-color: darkgreen;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .lightgreen-circle {
+     background-color: lightgreen;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .lightpink-circle {
+     background-color: lightpink;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .lightpink1-circle {
+     background-color: rgb(199, 150, 158) !important;
+   }
+
+   .color-circle {
+     height: 38px;
+     width: 100%;
+     outline: 1.5px solid rgb(226, 226, 226);
+     outline-offset: 1px;
+     border-radius: 50%;
+   }
+
+   .red-circle {
+     background-color: rgb(231, 5, 39);
+   }
+
+   .colour h5 u {
+     color: black;
+     font-size: 15px;
+   }
+
+   .colour h5 u:hover {
+     color: #9ea18e;
+   }
+
+   /* <!--............ colour part end........ --> */
+
+   .product h5 {
+     color: black;
+   }
+
+   .product h5:hover {
+     color: #9ea18e;
+   }
+
+   .product span {
+     color: black;
+     font-size: 16px;
+   }
+
+   .product span:hover {
+     color: #9ea18e;
+   }
+
+   .brand h5 {
+     color: black;
+   }
+
+   .brand h5:hover {
+     color: #9ea18e;
+   }
+
+   .brand span {
+     color: black;
+     font-size: 16px;
+   }
+
+   .brand span:hover {
+     color: #9ea18e;
+   }
+
+   .checkbox1 {
+     height: 15px;
+     width: 15px;
+   }
+
+   .size h5 {
+     color: black;
+   }
+
+   .size h5:hover {
+     color: #9ea18e;
+   }
+
+   .size span {
+     color: black;
+     font-size: 16px;
+   }
+
+   .size span:hover {
+     color: #9ea18e;
+   }
+
+   .puzzel p {
+     color: black;
+     text-transform: capitalize;
+     font-size: 16px;
+     line-height: 22px;
+   }
+
+   .puzzel i {
+     color: #666666;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
+   }
+
+   .puzzel del {
+     color: #666666;
+     font-size: 14px;
+     font-weight: 400px;
+     line-height: 22px;
+   }
+
+   .puzzel span {
+     color: black;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
+   }
+
+   .puzzel button {
+     height: 50px;
+     width: 80%;
+     background-color: #b4b49c;
+     border-radius: 5px;
+     color: white;
+     border: none;
+     text-align: center;
+   }
+
+   .puzzel button:hover {
+     background-color: #9ea18e;
+     color: white;
+
+   }
+
+   .sort label {
+     font-size: 16px;
+     font-weight: 500;
+   }
+
+   .sort option {
+     color: black;
+     font-size: 15px;
+   }
+
+   .sort span {
+     color: black;
+     font-size: 16px;
+     font-weight: 500;
+   }
+
+   .pagation {
+     float: left;
+   }
+
+   /* <!--...... all images part start......... --> */
+   body {
+     font-family: Arial, sans-serif;
+     /* margin: 20px; */
+     background-color: #f9f9f9;
+   }
+
+   .collections-container {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+   }
+
+   .collection-item {
+     background-color: white;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     width: 220px;
+     text-align: center;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     padding: 15px;
+   }
+
+   .collection-item img {
+     width: 100%;
+     border-radius: 5px;
+     margin-bottom: 10px;
+   }
+
+   .collection-item h3 {
+     margin: 10px 0 5px;
+     font-size: 18px;
+   }
+
+   .collection-item p {
+     color: #777;
+     font-size: 14px;
+     margin: 0;
+   }
+
+   .collection-item a {
+     text-decoration: none;
+     color: #5a5a5a;
+     display: none;
+
+   }
+
+   .collection-item a:hover {
+     color: #000;
+   }
+
+   .collection-item:hover p {
+     display: none;
+   }
+
+   .collection-item:hover a {
+     display: block;
+   }
+
+   .collection-item p {
+     font-size: 14px;
+   }
+
+   .collection-item a u {
+     color: #9ea18e;
+     font-size: 14px;
+     font-weight: 500;
+   }
+
+   /* <!--...... all images part end......... --> */
+
+   /*...... Page navigation part start....... */
+
+   .link a {
+     color: white !important;
+     background-color: #9ea18e !important;
+     border: #e5e5e5;
+     height: 45px;
+     width: 100%;
+     border-radius: 10px;
+     text-align: center;
+     text-decoration: none;
+     justify-content: center;
+     position: relative;
+   }
+
+   .link2 a {
+     color: black;
+     width: 100%;
+     height: 45px;
+     border-radius: 5px;
+     text-align: center;
+     text-decoration: none;
+     justify-content: center;
+     position: relative;
+   }
+
+
+
+   /*..... Page navigation part end....... */
+
+   .containering {
+     background-color: #ffffff;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+     padding: 40px 30px;
+   }
+
+   /* Headings */
+   h2 {
+     font-weight: 600;
+     margin-bottom: 25px;
+     color: #333;
+   }
+
+   /* Form Inputs */
+   .contact-form .form-control {
+     border-radius: 4px;
+     border: 1px solid #ccc;
+     padding: 12px 15px;
+     font-size: 15px;
+     transition: border-color 0.3s ease;
+   }
+
+   .contact-form .form-control:focus {
+     border-color: #007bff;
+     box-shadow: none;
+   }
+
+   /* Submit Button */
+   .contact-form button {
+     padding: 10px 25px;
+     font-size: 16px;
+     font-weight: 500;
+     border-radius: 4px;
+   }
+
+   /* Contact Details Icons */
+   .contact-details i {
+     font-size: 18px;
+     color: #007bff;
+     margin-right: 10px;
+   }
+
+   /* Contact Detail Text */
+   .contact-details li {
+     font-size: 15px;
+     color: #444;
+   }
+
+
+   /* <!-- contact page --> */
+
+   .call1 h2 {
+     color: black;
+     font-size: 20px;
+   }
+
+   .call1 i {
+     color: black;
+     font-size: 25px;
+   }
+
+   .call strong {
+     line-height: 20px;
+     font-weight: 500;
+   }
+
+   /* <!-- contact page end --> */
+
+   .form-group button {
+     height: 50px;
+     width: 20%;
+     background-color: #9ea18e;
+     border-radius: 5px;
+     color: white;
+     border: none;
+
+   }
+
+   .form-group button:hover {
+     background-color: black;
+   }
+
+
+
+
+   .map-container {
+     position: relative;
+     width: 100%;
+     height: 0;
+     padding-bottom: 56.25%;
+     /* 16:9 Aspect Ratio */
+     overflow: hidden;
+     border-radius: 8px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+     margin: 40px 0;
+   }
+
+   .map-container iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 550px;
+     border: 0;
+     border-radius: 8px;
+   }
+
+
+
+   /* <!--............. end part start ........  --> */
+   .site-footer {
+     background-color: #f9f9f9;
+     padding: 30px 0;
+     font-size: 14px;
+     color: #333;
+     border-top: 1px solid #eaeaea;
+   }
+
+   .site-footer a {
+     color: #007bff;
+     text-decoration: none;
+   }
+
+   .site-footer a:hover {
+     text-decoration: underline;
+   }
+
+   .footer-text {
+     margin: 0;
+     font-weight: 400;
+   }
+
+   .payment-icons img {
+     height: 40px;
+     width: 5%;
+     margin: 0 5px;
+     vertical-align: middle;
+     border-radius: 4px;
+     border: 1px solid #ddd;
+     background-color: #fff;
+     padding: 4px;
+     transition: transform 0.2s;
+   }
+
+   /* .payment-icons img:hover {
+  transform: scale(1.1);
+} */
+
+
+   .part p {
+     color: black;
+     font-size: 18px;
+     letter-spacing: 2%;
+   }
+
+   .part span {
+     color: black;
+   }
+
+   .part span:hover {
+     color: #b4b49c;
+   }
+
+   .part a:hover {
+     color: #b4b49c;
+   }
+
+   /* <!--............. end footer ........  --> */
+
+   /*.............. paris part start */
+   .star2 h5 {
+     color: black;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 22px;
+   }
+
+   .star2 i {
+     color: #cbc5c5;
+   }
+
+   .star2 p {
+     color: #777;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22px;
+   }
+
+   .star2 del {
+     color: #777;
+     font-weight: 400;
+     line-height: 22px;
+   }
+
+   .star2 span {
+     color: black;
+     font-weight: 400;
+   }
+
+   .star2 button {
+     height: 50px;
+     width: 30%;
+     background-color: #9ea18e;
+     border-radius: 5px;
+     color: white;
+     border: none;
+   }
+
+   .star2 button:hover {
+     background-color: #9ea18e;
+   }
+
+   /* .................paris part end */
+
+   /* shipping part start */
+
+   .lorem h3 {
+     color: black;
+     font-weight: 500;
+     font-size: 30px;
+   }
+
+   .lorem p {
+     color: #777;
+     font-size: 15px;
+     line-height: 25px;
+   }
+
+   /* shipping part end */
+
+   /* Sitemap part start */
+
+   .lorem6 h5 {
+     color: black;
+     font-weight: 500;
+     font-size: 30px;
+
+   }
+
+   .lorem6 p {
+     color: #777;
+     font-size: 15px;
+     line-height: 25px;
+   }
+
+
+   /* Sitemap part end */
+
+   /* Policy for Buyers part start */
+
+   .lorem9 h5 {
+     color: black;
+     font-weight: 500;
+     font-size: 20px;
+
+   }
+
+   .lorem9 p {
+     color: #777;
+     font-size: 15px;
+     line-height: 25px;
+   }
+
+   /* Policy for Buyers part end */
+
+   /* <!-- Privacy policy part start  --> */
+   .policy h4 {
+     font-size: 25px;
+     font-weight: 500;
+   }
+
+   .policy p {
+     color: gray;
+   }
+
+   .policy h3 {
+     color: black;
+     font-size: 20px;
+   }
+
+   .automatically h3 {
+     color: black;
+     font-size: 25px;
+     font-weight: 500;
+
+   }
+
+   .automatically p {
+     color: gray;
+     font-size: 15px;
+   }
+
+   .automatically li {
+     color: gray;
+     font-size: 15px;
+   }
+
+   .data h4 {
+     color: gray;
+     font-size: 20px;
+     font-weight: 500;
+   }
+
+   .data p {
+     color: gray;
+   }
+
+   /* <!-- Privacy policy part end  --> */
+
+   .policy5 h5 {
+     color: black;
+   }
+
+   .policy5 p {
+     color: gray;
+   }
+
+   .policy5 ul li {
+     color: gray;
+     line-height: 30px;
+   }
+
+   /* * <!-- Terms of service part start --> */
+
+   .OVERVIEW1 h5 {
+     color: #666666;
+     font-size: 15px;
+     font-weight: bolder;
+   }
+
+   .OVERVIEW1 p {
+     color: gray;
+   }
+
+   .pulvinar h3 {
+     color: black;
+     font-size: 20px;
+     font-weight: 500;
+   }
+
+   .pulvinar p {
+     color: gray;
+     font-size: 15px;
+   }
+
+   .labour h1 {
+     font-size: 25px;
+   }
+
+   .labour p {
+     color: gray;
+     line-height: 25px;
+   }
+
+   /* <!-- Terms of service part end --> */
+
+   <style>body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     min-height: 100vh;
+     background-color: #fff;
+   }
+
+   .search-container {
+     width: 50%;
+   }
+
+   .search-input {
+     border-right: none;
+     border-radius: 0.5rem 0 0 0.5rem;
+   }
+
+   .search-btn {
+     border-left: none;
+     border-radius: 0 0.5rem 0.5rem 0;
+     background-color: #9d9d89;
+     /* Same as image */
+     color: white;
+   }
+
+   .search-btn:hover {
+     background-color: #8a8a76;
+   }
+
+
+ /* read more part start */
+
+ .rainy h5{
+  color: black;
+  font-size: 15px;
+ }
+
+ .expert h4{
+  color:black;
+  font-size: 30px;
+ }
+
+ .expert p{
+  color:#9ea18e;
+ }
+ .curious p{
+  color: #9ea18e;
+ }
+ .curious h5{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+ }
+
+ .curious ul li{
+  color:#9ea18e;
+ }
+
+.wellcome h4{
+  color:black;
+  font-size: 30px;
+}
+
+.wellcome p{
+  color: gray;
+}
+
+.wellcome ul li{
+  color: #434242;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* read more part end */
+
+
+
+
+   @media only screen and(min-width:760px) and (max-width:1024px) and (orientation: portrait) {
+
+     .colour {
+       height: 200px;
+       width: 100%;
+     }
+   }
+
+   /* contact from */
+   @media (max-width: 767.98px) {
+     .containering {
+       padding: 20px 15px;
+     }
+
+     h2 {
+       font-size: 22px;
+       text-align: center;
+     }
+   }
+
+   /* contact from end */
+
+
+   @media only screen and (min-width:760px) and (max-width:1024px) and (orientation: landscape) {
+
+     .colour {
+       height: auto;
+       width: 100%;
+     }
+   }

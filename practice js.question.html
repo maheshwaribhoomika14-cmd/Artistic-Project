@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+<h4>Operators</h4>
+
+<h5>1.Arithmetic Operators</h5>
+
+<p id="Arithmetic"></p>
+
+<script>
+    let arith1 = 30;
+    let arith2 = 60;
+
+    let Arith_sum = arith1+arith2;
+    let Arith_sub = arith1-arith2;
+    let Arith_multi = arith1*arith2;
+    let Arith_div = arith1/arith2;
+    let Arith_mod = arith1%arith2;
+
+    arith1++;
+    arith2--;
+    document.getElementById("Arithmetic").innerHTML = "Value of Arith_sum "+ Arith_sum+"<br> Value of Arith_sub: "+ Arith_sub + "<br> Value of Arith_multi: "+ Arith_multi+
+    "<br>Value of Arith_div: "+ Arith_div + "<br>Value of Arith_mod: "+ Arith_mod + "<br>Increament: "+ arith1+ "Decreament: "+ arith2;
+
+
+</script>
+
+
+
+<p id = "digit"></p>
+
+
+  <script>
+   let marks1 = 85;
+   let marks2 = 92;
+
+   let greater = marks1>marks2;
+   let less = marks1<marks2;
+   let greater_equal = marks1>=marks2;
+   let less_equal = marks1<=marks2;
+
+   document.getElementById("digit").innerHTML="value of greater:"+greater+"<br> value of less:" +less+ "<br> value of greater_equal:" +greater_equal + "<br> value of less_then:" +less_equal;
+
+
+  </script>
+
+
+  <!-- <h3>2.Relational Operators</h3>
+
+<p id="Relational"></p>
+
+
+<script>
+    let rel1 = 20;
+    let rel2 = 10;
+    let rel3 = "10";
+
+    let equal = rel3 == rel2;
+    let str_equal = rel1 === rel2;
+    let not_equal = rel1 != rel2;
+let str_not_equal = rel3 !== rel2;
+let greater = rel1 > rel2;
+let less = rel1 < rel2;
+let greater_equal = rel1 >= rel2;
+let less_equal = rel1<=rel2;
+
+    document.getElementById("Relational").innerHTML = "Equal: "+ equal + "<br>Strict Equal: "+ str_equal + "<br>Not Equal: "+ not_equal +
+    "<br>Strict not equal: "+ str_not_equal + "<br> Greater than : "+ greater + "<br> Less than: " + less + "<br> Greater than Equal: "+ greater_equal + "<br> Less Than Equal: "+ less_equal;
+    ;
+</script> -->
+
+<h3> 3. Bitwise Operator</h3>
+
+<p id="bit"></p>
+
+<script>
+    bit1 = 20;
+    bit2 = 10;
+
+    // let bit_and = bit1 & bit2;
+    // let bit_or = bit1 || bit2;
+    // let bit_xor = bit1^bit2;
+    // let bit_not = ~bit1;
+    // let bit_leftshift = bit1<<2;
+    // let bit_rightshift = bit2>>1;
+
+    document.getElementById("bit").innerHTML = "value of bit_and:"+bit_and + "<br> value of bit_or:" + bit_or + "<br> value of bit_xor:" +bit_xor + "<br> value of bit_not:"+bit_not +"<br> value of bit_leftshift:"+bit_leftshift + "<br> value of bit_rightshift:" +bit_rightshift; 
+</script>
+
+
+
+<h4> bitwise operator</h4>
+<p id="bit1"></p>
+
+<script>
+    bit4=20;
+    bit5=50;
+
+    let bit1_and = bit4 & bi56;
+    let bit1_or = bit4 || bit5;
+    let bit1_xor = bit4^bit5;
+    let bit1_leftshift = bit4<<6;
+    let bit1_rightshift = bit5>>7;
+
+    document.getElementById("bit1").innerHTML = "value of bit1_and:"+bit1_and +"<br> value of bit1_or:"+bit1_or + "<br> value of bit1_xor:"+bit1_xor+ "<br> value of bit1_leftshift:"+bit1_leftshift+ "<br> value of bit1_rightshift:"+bit1_rightshift;
+
+</script>
+
+
+
+
+<!-- <h3> Logical Operator</h3>
+<p id = " log"></p>
+
+<script>
+    log1 = 30;
+    log2 = 10;
+    log3 = 20;
+
+    let log_and = log1 >log2 && log2 < log3;
+    let log_or =  log1> log2 || log2< log3;
+    let log_not = !(log1>log2);
+
+    document.getElementById("log").innerHTML = "value of log_and:" +log_and + "<br> value of log_or:" +log_or +"<br> value of log_not:"+log_not;
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
